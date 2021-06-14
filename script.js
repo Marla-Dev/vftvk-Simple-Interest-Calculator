@@ -24,5 +24,5 @@ function updateRate()
     // retrieves the value of the interest rate
     var rateval = document.getElementById("rate").value;
     // changes the inner text for the intrest rate as the slider moves
-    document.getElementById("rate_val").innerText=rateval;
+    document.getElementById("rate_val").innerText=rateval+"%";
 }
