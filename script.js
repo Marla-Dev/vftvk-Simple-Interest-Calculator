@@ -2,7 +2,7 @@ function compute()
 {
     var principal = document.getElementById("principal").value;
     // alerts if the principal number is 0 or negative
-    if ((parseInt(principal) < 1) or (principal == " "))
+    if ((parseInt(principal) < 1) or (principal == ""))
     {
         alert("Enter a positive number")
         // focuses back on the "Amount" box
